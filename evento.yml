@@ -1,0 +1,116 @@
+evento:
+    nombre: Premio Coronación 2025 - Copa Quique Lartigue - AAAS
+    fecha: 25/10/2025
+
+carreras:
+    Clasica:
+        nombre_completo: Clásica
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 9:00
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
+        #bandera_cuadros: "33:19.924"
+        #auto_seguridad:
+        #    - inicio: "10:19.924"
+        #    - fin: "33:19.924"
+
+    ClasiGP:
+        nombre_completo: Clasificación Grand Prix
+        tipo_carrera: CLASIGP
+        hora_inicio: 9:40
+        estructura:
+            - cantidad_vueltas: 4
+              tiempo_vuelta: 1:35
+
+    LeMans:
+        nombre_completo: Le Mans AAAS
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 10:20
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
+        #bandera_cuadros: "33:19.924"
+
+    GP:
+        nombre_completo: Grand Prix
+        tipo_carrera: GP
+        hora_inicio: 11:25
+        penalizacion_caidas: 3
+        estructura:
+            - cantidad_vueltas: 24
+              tiempo_vuelta: 1:35
+
+
+    Lotus:
+        nombre_completo: Lotus y Monoplazas
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 12:15
+        duracion: 30:00
+        minimo_declarar: 1:55
+        maximo_declarar: 2:25
+        #bandera_cuadros: "33:19.924"
+
+    SuperSport:
+        nombre_completo: SuperSport
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 13:40
+        duracion: 30:00
+        minimo_declarar: $$$ # 2:00
+        maximo_declarar: $$$ # 2:30
+        #bandera_cuadros: "33:19.924"
+        # penalizacion_caidas: 2
+
+    Motos:
+        nombre_completo: Motos
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 14:20
+        duracion: 30:00
+        minimo_declarar: $$$ # 3:00
+        maximo_declarar: $$$ # 4:30
+        no_sancionar_tiempo_minimo: true
+        #bandera_cuadros: "33:19.924"
+
+    Flechas:
+        nombre_completo: Flechas de Plata
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 15:00
+        duracion: 30:00
+        minimo_declarar: 2:20
+        maximo_declarar: 3:00
+        velocidad_radar: 28
+        #bandera_cuadros: "33:19.924"
+
+    Despedida:
+        nombre_completo: Despedida circuito N. 5
+        tipo_carrera: PROMEDIOS
+        hora_inicio: 16:25
+        duracion: 30:00
+        minimo_declarar: $$$ # 2:00
+        maximo_declarar: $$$ # 2:30
+        #bandera_cuadros: "33:19.924"
+        # penalizacion_caidas: 2
+
+    # Otros parametros:
+    # incluir_recien_abandonados: true
+    ## para la Grand Prix especial (que no tiene clasificación, no computa vuelta 0):
+    # modalidad_sin_clasificacion: true
+    ## para que no se apliquen las sanciones por bajar el tiempo minimo permitido:
+    # no_sancionar_tiempo_minimo: true
+    ## texto para indicar penalizacion de radar
+    #texto_penalizacion_radar: Art. 11.02 RPP
+    ## tiempo que penaliza la sancion de radar (en segundos)
+    #tiempo_penalizacion_radar: 10
+
+    ## Para las planillas del autodromo:
+    ## Para modificar la velocidad de radar que se muestra en la planilla:
+    # velocidad_radar: 28
+
+    ## Para cambio de piloto manual:
+    #cambio_piloto:
+    #    - auto: 2
+    #      vuelta: 77
+    ## Para forzar una vuelta normal sin cambio de piloto:
+    #vuelta_normal:
+    #    - auto: 2
+    #      vuelta: 77
