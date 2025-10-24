@@ -1,0 +1,10 @@
+#radar:
+#    - auto: @@@
+#      vuelta: "@@"
+#      cantidad: @
+
+#sanciones:
+#    - auto: @@@
+#      motivo: @@@@ # Art. 5 RPP
+#      tipo: @@@@ # TIEMPO / APERCIBIMIENTO / EXCLUSION
+#      tiempo: @@@@ # 5000
