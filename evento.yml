@@ -56,18 +56,18 @@ carreras:
         tipo_carrera: PROMEDIOS
         hora_inicio: 13:40
         duracion: 30:00
-        minimo_declarar: $$$ # 2:00
-        maximo_declarar: $$$ # 2:30
+        penalizacion_caidas: 3
+        minimo_declarar: 2:05
+        maximo_declarar: 2:20
         #bandera_cuadros: "33:19.924"
-        # penalizacion_caidas: 2
 
     Motos:
         nombre_completo: Motos
         tipo_carrera: PROMEDIOS
         hora_inicio: 14:20
         duracion: 30:00
-        minimo_declarar: $$$ # 3:00
-        maximo_declarar: $$$ # 4:30
+        minimo_declarar: 2:20
+        maximo_declarar: 4:00
         no_sancionar_tiempo_minimo: true
         #bandera_cuadros: "33:19.924"
 
@@ -86,10 +86,10 @@ carreras:
         tipo_carrera: PROMEDIOS
         hora_inicio: 16:25
         duracion: 30:00
-        minimo_declarar: $$$ # 2:00
-        maximo_declarar: $$$ # 2:30
+        penalizacion_caidas: 2
+        minimo_declarar: 1:35
+        maximo_declarar: 2:00
         #bandera_cuadros: "33:19.924"
-        # penalizacion_caidas: 2
 
     # Otros parametros:
     # incluir_recien_abandonados: true
