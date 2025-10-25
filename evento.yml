@@ -10,6 +10,9 @@ carreras:
         duracion: 30:00
         minimo_declarar: 2:20
         maximo_declarar: 4:00
+        modificacion_vueltas:
+            - cantidad: 99
+              segundos: 30
         #bandera_cuadros: "33:19.924"
         #auto_seguridad:
         #    - inicio: "10:19.924"
@@ -40,7 +43,6 @@ carreras:
         estructura:
             - cantidad_vueltas: 24
               tiempo_vuelta: 1:35
-
 
     Lotus:
         nombre_completo: Lotus y Monoplazas
